@@ -5,11 +5,15 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon --exec electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tst": "echo \"Nothing\" && exit 1"
   },
   "author": "Julian Starchenko",
   "license": "MIT",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
+    "electron": "^14.0.0",
     "nodemon": "^2.0.12"
   }
 }
